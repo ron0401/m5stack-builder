@@ -8,3 +8,4 @@ RUN arduino-cli core update-index
 RUN arduino-cli core install esp32:esp32
 RUN arduino-cli lib install M5Stack
 RUN arduino-cli lib install M5StickC
+RUN pip install pyserial
